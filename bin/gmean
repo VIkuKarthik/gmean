@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "gmean"
+meaning = Gmean::Crawl.new(ARGV)
+meaning.scrap
